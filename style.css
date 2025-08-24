@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(35, 35, 35);
+}
+
+.box{
+   background: rgba(41, 41, 41, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.7rem;
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.name{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.header-action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
+.photo-info{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 1rem;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.photo{
+   position: relative;
+   border-radius: 100%;
+}
+
+.pic{
+   height: 6rem;
+   width: 6rem;
+   border-radius: 50%;
+   padding: 0.2rem;
+   border: 0.2rem rgba(184, 184, 184, 0.95) solid;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  margin-right: 3rem;
+  align-items: center;
+  font-size: 1rem;
+  gap: 2.6rem;
+}
+
+.info-items{
+  text-align: center;
+}
+
+.number{
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: block;
+}
+
+.stat-label {
+   font-size: 0.85rem;
+   opacity: 0.7;
+   margin-top: 2px;
+}
+
+.pro-name{
+  font-size: 0.9rem;
+  font-weight: 0.2rem;
+  color: rgb(205, 205, 205);
+  cursor: pointer;
+}
+
+.bio{
+    font-size: 0.9rem;
+    font-weight: 300 ;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    cursor: pointer;
+}
+
+.profile-link{
+  text-decoration: none;
+  color: rgb(182, 92, 255);
+}
+
+.dash-board{
+  background-color: rgb(86, 86, 86);
+  padding-left: 0.5rem;
+  padding-top: 0.5rem ;
+  padding-bottom: 0.5rem ;
+  border-radius: 0.5rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+
+.pro{
+  font-size: 0.9rem;
+}
+
+.views{
+  font-size: 0.9rem;
+  color: rgb(184, 184, 184);
+}
+
+.but{
+     display: flex;
+     gap: 10px;
+     margin-top: 0.6rem;
+}
+
+
+.buttons{
+      flex: 1;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+      background: rgba(70, 70, 70, 0.8);
+      color: white;
+}
+
+
+
